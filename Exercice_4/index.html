@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>JQuery 3 - Excercice 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="pb-5">
+    <div class="container-fluid">
+      <h1>Exercice 4 :</h1>
+      <p>Créer un formulaire demandant le nom, le prénom, la date de naissance, le lieu de naissance, l'emploi et la société. Créer un bouton "Générer" permettant de créer une courte phrase de présentation.</p>
+      <p>Exemple : Si les données saisies sont : "Jérôme OTT, 5/06/1990, Margny-lès-Compiègne, Formateur, Novei", la phrase de présentation sera : "Jérôme OTT, né le 5/06/1990 à Margny-lès-Compiègne, actuellement Formateur à Novei</p>
+    </div>
+    <div class="container-fluid pb-5">
+      <form>
+        <div class="row mb-2 mt-5">
+          <div class="col">
+            <input type="text" class="form-control" id="firstName" placeholder="Prénom" />
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="lastName" placeholder="Nom" />
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <input type="date" class="form-control" id="birthDay" placeholder="Date de naissance" />
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="birthPlace" placeholder="Lieu de naissance" />
+          </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col">
+            <input type="text" class="form-control" id="job" placeholder="Poste occupé" />
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="society" placeholder="Société" />
+          </div>
+        </div>
+        <button type="submit" class="mt-2 mb-5 btn btn-primary" id="button">Submit</button>
+      </form>
+      <div id="result"><p></p></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/javascript.js"></script>
+  </body>
+</html>

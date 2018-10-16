@@ -1,0 +1,14 @@
+html {
+  background: url(../../images/backgroundJS.jpg) no-repeat;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.container-fluid {
+  background-color: white;
+}

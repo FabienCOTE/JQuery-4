@@ -1,0 +1,69 @@
+html {
+  background: url(../../images/backgroundJS.jpg) no-repeat;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+#result {
+  width: 450px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 0 13px 20px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 220px;
+  margin: 0 auto;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+input, select {
+  width: 400px;
+  height: 50px;
+  padding: 0 18px;
+  border: 0;
+  outline: none;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+button {
+  width: 400px;
+  height: 50px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
