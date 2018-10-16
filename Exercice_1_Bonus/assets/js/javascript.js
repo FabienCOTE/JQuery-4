@@ -1,5 +1,3 @@
-//Choix du joueur
-var player = $('#player').val();
 //Variable score
 var computerScore = 0;
 var playerScore = 0;
@@ -7,6 +5,8 @@ var playerScore = 0;
 
 //Clic sur le bouton jouer, execution des fonctions
 $('#shifumi').click(function(e) {
+  //Choix du joueur
+  var player = $('#player').val();
   //Chiffre aléatoire
   var randomNumber = Math.floor(Math.random()*3)
   //Choix de l'ordinateur
